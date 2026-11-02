@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap');
 
+/* COLOURS AND GENERAL SETTINGS */
+
 :root {
   --navy: #172e40;
   --blue: #55758a;
@@ -21,6 +23,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0 20px;
   background: var(--background);
   color: var(--text);
   font-family: 'DM Sans', sans-serif;
@@ -32,6 +35,16 @@ a {
   color: var(--blue);
 }
 
+h1,
+h2,
+h3 {
+  color: var(--navy);
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+}
+
+/* GENERAL PAGE CONTAINERS */
+
 header,
 .hero,
 section {
@@ -42,6 +55,8 @@ section {
   border-radius: 0;
   box-shadow: none;
 }
+
+/* NAVIGATION */
 
 header {
   padding: 20px 40px;
@@ -88,29 +103,22 @@ nav {
   color: var(--blue);
 }
 
-/* INTRODUCTION */
+/* HOMEPAGE INTRODUCTION */
 
 .hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-  padding: 65px 65px;
+  padding: 65px;
 }
 
 .hero-content {
   flex: 1;
+  min-width: 0;
 }
 
-h1,
-h2,
-h3 {
-  color: var(--navy);
-  font-family: 'DM Serif Display', serif;
-  font-weight: 400;
-}
-
-h1 {
+.hero h1 {
   margin: 0 0 12px;
   font-size: clamp(42px, 5vw, 62px);
   line-height: 1.15;
@@ -132,19 +140,20 @@ h1 {
   font-size: 16px;
 }
 
-.portrait-placeholder {
+/* PORTRAIT PHOTOGRAPH */
+
+.hero img.portrait-photo {
+  display: block;
   width: 180px;
+  min-width: 180px;
+  max-width: 180px;
   height: 230px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #e8edf1;
-  color: var(--blue);
-  font-size: 13px;
+  object-fit: cover;
+  object-position: center;
+  flex: 0 0 180px;
 }
 
-/* GENERAL SECTIONS */
+/* GENERAL HOMEPAGE SECTIONS */
 
 section {
   padding: 48px 60px;
@@ -248,6 +257,7 @@ section p {
 .activity-overview > div:first-child,
 .featured-content > div:last-child {
   flex: 1;
+  min-width: 0;
 }
 
 .activity-overview p,
@@ -256,18 +266,17 @@ section p {
   color: var(--muted);
 }
 
-.activity-photo-placeholder,
-.work-media-placeholder {
+/* PRESENTATION AND WORKSHOP IMAGES */
+
+.activity-overview img.activity-photo,
+.featured-content img.workshop-photo {
+  display: block;
   width: 34%;
+  max-width: 34%;
+  height: auto;
   aspect-ratio: 4 / 3;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #e8edf1;
-  color: var(--blue);
-  font-size: 13px;
-  text-align: center;
+  object-fit: cover;
+  flex: 0 0 34%;
 }
 
 .featured-work {
@@ -348,184 +357,13 @@ section p {
   text-decoration: underline;
 }
 
-/* FOOTER */
-
-footer {
-  padding: 15px 20px 35px;
-  color: #64748b;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* RESPONSIVE LAYOUT */
-
-@media (max-width: 1150px) {
-  header,
-  .hero,
-  section {
-    margin-left: 4%;
-    margin-right: 4%;
-  }
-}
-
-@media (max-width: 700px) {
-  header {
-    padding: 18px 24px;
-  }
-
-  nav {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .nav-links {
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-
-  .hero {
-    padding: 35px 26px;
-    gap: 20px;
-  }
-
-  h1 {
-    font-size: 39px;
-  }
-
-  .professional-title {
-    font-size: 15px;
-  }
-
-  .portrait-placeholder {
-    width: 95px;
-    height: 125px;
-  }
-
-  section {
-    padding: 32px 26px;
-  }
-
-  .cards {
-    grid-template-columns: 1fr;
-  }
-
-  .card,
-  .card + .card {
-    padding: 22px 0;
-    border-left: 0;
-  }
-
-  .card + .card {
-    border-top: 1px solid var(--line);
-  }
-
-  .activity-overview,
-  .featured-content {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 22px;
-  }
-
-  .activity-photo-placeholder,
-  .work-media-placeholder {
-    width: 100%;
-  }
-}
-
-@media (max-width: 420px) {
-  .hero {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-  }
-
-  .portrait-placeholder {
-    width: 110px;
-    height: 140px;
-  }
-}
-
-
 /* CURRICULUM VITAE */
-
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap');
-
-:root {
-  --navy: #172e40;
-  --blue: #55758a;
-  --background: #eef2f5;
-  --white: #ffffff;
-  --text: #293c48;
-  --muted: #526879;
-  --line: #dce3e8;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0 20px;
-  background: var(--background);
-  color: var(--text);
-  font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1.75;
-}
-
-h1, h2, h3 {
-  font-family: 'DM Serif Display', serif;
-  font-weight: 400;
-  color: var(--navy);
-}
-
-/* NAVIGATION */
-
-header {
-  max-width: 1100px;
-  margin: 20px auto;
-  padding: 20px 40px;
-  background: white;
-  border: 1px solid var(--line);
-}
-
-nav, .nav-links {
-  display: flex;
-  align-items: center;
-}
-
-nav {
-  justify-content: space-between;
-  gap: 24px;
-}
-
-.name {
-  font-family: 'DM Serif Display', serif;
-  font-size: 24px;
-  color: var(--navy);
-  text-decoration: none;
-}
-
-.nav-links {
-  gap: 28px;
-}
-
-.nav-links a, .language-switch {
-  font-size: 13px;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--text);
-}
-
-/* CV INTRODUCTION */
 
 .cv-page {
   max-width: 1100px;
   margin: 20px auto;
   padding: 55px 65px;
-  background: white;
+  background: var(--white);
   border: 1px solid var(--line);
 }
 
@@ -534,8 +372,6 @@ nav {
   line-height: 1.2;
   margin: 0 0 30px;
 }
-
-/* CV SECTIONS */
 
 .cv-section {
   margin-top: 40px;
@@ -547,8 +383,6 @@ nav {
   font-size: 32px;
   margin: 0 0 30px;
 }
-
-/* EXPERIENCE ENTRIES */
 
 .cv-entry {
   display: grid;
@@ -583,8 +417,6 @@ nav {
   margin: 0;
 }
 
-/* LINKS */
-
 .cv-links {
   display: flex;
   flex-wrap: wrap;
@@ -604,10 +436,22 @@ nav {
 /* FOOTER */
 
 footer {
-  padding: 20px;
-  text-align: center;
-  font-size: 12px;
+  padding: 20px 20px 35px;
   color: var(--muted);
+  font-size: 12px;
+  text-align: center;
+}
+
+/* TABLETS */
+
+@media (max-width: 1150px) {
+  header,
+  .hero,
+  section,
+  .cv-page {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* MOBILE */
@@ -622,13 +466,67 @@ footer {
   }
 
   nav {
-    flex-direction: column;
     align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .nav-links {
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 16px;
+  }
+
+  .hero {
+    padding: 35px 26px;
+    gap: 20px;
+  }
+
+  .hero h1 {
+    font-size: 39px;
+  }
+
+  .professional-title {
+    font-size: 15px;
+  }
+
+  .hero img.portrait-photo {
+    width: 95px;
+    min-width: 95px;
+    max-width: 95px;
+    height: 125px;
+    flex: 0 0 95px;
+  }
+
+  section {
+    padding: 32px 26px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card,
+  .card + .card {
+    padding: 22px 0;
+    border-left: 0;
+  }
+
+  .card + .card {
+    border-top: 1px solid var(--line);
+  }
+
+  .activity-overview,
+  .featured-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 22px;
+  }
+
+  .activity-overview img.activity-photo,
+  .featured-content img.workshop-photo {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 auto;
   }
 
   .cv-page {
@@ -649,87 +547,14 @@ footer {
   }
 }
 
-}
-
-
-/* HOMEPAGE PHOTOGRAPHS */
-
-/* PHOTOGRAPHS */
-
-.hero img.portrait-photo {
-  width: 180px;
-  height: 230px;
-  flex-shrink: 0;
-  object-fit: cover;
-  display: block;
-}
-
-.activity-photo,
-.workshop-photo {
-  width: 34%;
-  aspect-ratio: 4 / 3;
-  flex-shrink: 0;
-  object-fit: cover;
-  display: block;
-}
-
-@media (max-width: 700px) {
-  .portrait-photo {
-    width: 95px;
-    height: 125px;
-  }
-
-  .activity-photo,
-  .workshop-photo {
-    width: 100%;
-  }
-}
-
-
-/* REAL PHOTOGRAPHS — SIZE CONTROL */
-
-.hero img.portrait-photo {
-  display: block;
-  width: 180px;
-  min-width: 180px;
-  max-width: 180px;
-  height: 230px;
-  object-fit: cover;
-  object-position: center;
-  flex: 0 0 180px;
-}
-
-.activity-overview img.activity-photo,
-.featured-content img.workshop-photo {
-  display: block;
-  width: 34%;
-  max-width: 34%;
-  height: auto;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  flex: 0 0 34%;
-}
-
-/* MOBILE */
-
-@media (max-width: 700px) {
-  .hero img.portrait-photo {
-    width: 95px;
-    min-width: 95px;
-    max-width: 95px;
-    height: 125px;
-    flex: 0 0 95px;
-  }
-
-  .activity-overview img.activity-photo,
-  .featured-content img.workshop-photo {
-    width: 100%;
-    max-width: 100%;
-    flex: 0 0 auto;
-  }
-}
+/* SMALL PHONES */
 
 @media (max-width: 420px) {
+  .hero {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
   .hero img.portrait-photo {
     width: 110px;
     min-width: 110px;
@@ -738,6 +563,3 @@ footer {
     flex: 0 0 110px;
   }
 }
-
-
-
