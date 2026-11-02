@@ -151,6 +151,7 @@ nav {
   object-fit: cover;
   object-position: center;
   flex: 0 0 180px;
+  image-rendering: auto;
 }
 
 /* GENERAL HOMEPAGE SECTIONS */
