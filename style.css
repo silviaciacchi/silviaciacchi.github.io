@@ -656,7 +656,7 @@ footer {
 
 /* PHOTOGRAPHS */
 
-.portrait-photo {
+.hero img.portrait-photo {
   width: 180px;
   height: 230px;
   flex-shrink: 0;
