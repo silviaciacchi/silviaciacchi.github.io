@@ -266,24 +266,30 @@ section p {
   color: var(--muted);
 }
 
-/* PRESENTATION AND WORKSHOP IMAGES */
+/* PRESENTATION IMAGE */
 
-.activity-overview img.activity-photo,
+.activity-overview img.activity-photo {
+  display: block;
+  width: 34%;
+  max-width: 34%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  flex: 0 0 34%;
+}
+
+/* WORKSHOP IMAGE */
+
 .featured-content img.workshop-photo {
   display: block;
   width: 58%;
   max-width: 58%;
   height: auto;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  aspect-ratio: auto;
+  object-fit: contain;
   flex: 0 0 58%;
 }
 
-.featured-work {
-  margin-top: 40px;
-  padding-top: 35px;
-  border-top: 1px solid var(--line);
-}
 
 /* PUBLICATIONS */
 
