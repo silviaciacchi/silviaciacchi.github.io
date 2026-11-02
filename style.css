@@ -651,3 +651,46 @@ footer {
 
 }
 
+
+/* HOMEPAGE PHOTOGRAPHS */
+
+.portrait-photo {
+  width: 180px;
+  height: 230px;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.activity-photo,
+.workshop-photo {
+  width: 34%;
+  aspect-ratio: 4 / 3;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: block;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .portrait-photo {
+    width: 95px;
+    height: 125px;
+  }
+
+  .activity-photo,
+  .workshop-photo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .portrait-photo {
+    width: 110px;
+    height: 140px;
+  }
+}
+
+
