@@ -1,15 +1,29 @@
 
+<!DOCTYPE html>
+<html lang="it">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta name="description"
+        content="Silvia Ciacchi è una ricercatrice, consulente e docente specializzata in Imprese e Diritti Umani, diritto dell'Unione europea e due diligence di sostenibilità.">
+
+  <title>Silvia Ciacchi | Ricercatrice, Consulente e Docente</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
 
 <!-- NAVIGATION -->
 <header>
   <nav>
-    <a class="name" href="index-it.html">Silvia Ciacchi</a>
+    <a class="name" href="index-ITA.html">Silvia Ciacchi</a>
 
     <div class="nav-links">
-      <a href="index-it.html">Home</a>
-      <a href="cv-it.html">CV</a>
+      <a href="index-ITA.html">Home</a>
+      <a href="cv.html">CV</a>
       <a href="#contact">Contatti</a>
 
       <span class="language-switch">
@@ -21,3 +35,225 @@
 </header>
 
 <main id="home">
+
+  <!-- INTRODUCTION -->
+  <div class="hero">
+
+    <div class="hero-content">
+
+      <h1>Silvia Ciacchi</h1>
+
+      <p class="professional-title">
+        Ricercatrice · Consulente · Docente
+      </p>
+
+      <p class="intro">
+        Imprese e Diritti Umani · Diritto dell'UE ·
+        Due Diligence di Sostenibilità
+      </p>
+
+    </div>
+
+    <img
+      src="images/Portrait.jpg"
+      alt="Ritratto di Silvia Ciacchi"
+      class="portrait-photo"
+    >
+
+  </div>
+
+  <!-- BIOGRAPHY -->
+  <section class="biography">
+
+    <p>
+      Silvia Ciacchi è una ricercatrice, consulente e docente
+      specializzata in Imprese e Diritti Umani, diritto
+      dell'Unione europea e due diligence di sostenibilità
+      delle imprese.
+    </p>
+
+    <p>
+      Ha conseguito un dottorato di ricerca in Diritto ed Economia
+      presso l'Erasmus University Rotterdam. Il suo lavoro
+      combina ricerca giuridica e interdisciplinare con progetti
+      applicati, concentrandosi sulla regolamentazione delle
+      catene globali del valore, sulla responsabilità delle
+      imprese e sull'attuazione pratica della due diligence
+      in materia di diritti umani e sostenibilità.
+    </p>
+
+    <p>
+      Le sue attività professionali creano un collegamento
+      tra ricerca accademica, sviluppo delle politiche
+      e prassi aziendali attraverso consulenza, insegnamento,
+      formazione e iniziative collaborative.
+    </p>
+
+    <a class="text-link" href="cv.html">
+      Consulta il curriculum vitae →
+    </a>
+
+  </section>
+
+  <!-- AREAS OF WORK -->
+  <section class="expertise">
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="card-heading">
+          <h3>Ricerca</h3>
+          <span class="card-icon" aria-hidden="true">▤</span>
+        </div>
+
+        <p>
+          Ricerca giuridica e interdisciplinare sulla
+          regolamentazione europea in materia di sostenibilità,
+          sulle catene globali del valore e sulla
+          responsabilità delle imprese.
+        </p>
+
+        <a href="https://scholar.google.com/citations?user=fUkSAy0AAAAJ&amp;hl=en"
+           target="_blank"
+           rel="noopener noreferrer">
+          Google Scholar →
+        </a>
+      </div>
+
+      <div class="card">
+        <div class="card-heading">
+          <h3>Consulenza</h3>
+          <span class="card-icon" aria-hidden="true">⚖</span>
+        </div>
+
+        <p>
+          Integrazione dei quadri giuridici e delle politiche
+          pubbliche nelle pratiche di governance aziendale,
+          conformità normativa e due diligence.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-heading">
+          <h3>Formazione</h3>
+          <span class="card-icon" aria-hidden="true">▣</span>
+        </div>
+
+        <p>
+          Didattica universitaria, formazione professionale
+          e attività di apprendimento interattivo sui temi
+          delle Imprese e dei Diritti Umani e del diritto
+          dell'Unione europea.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ACTIVITIES -->
+  <section class="activities">
+
+    <div class="activity-overview">
+
+      <div>
+        <h3>Collegare la ricerca alla pratica</h3>
+
+        <p>
+          Attraverso attività didattiche, conferenze,
+          workshop e iniziative collaborative, Silvia
+          promuove il confronto con il mondo accademico
+          e professionale sui temi delle Imprese e dei
+          Diritti Umani e del diritto dell'Unione europea.
+        </p>
+      </div>
+
+      <img
+        src="images/Presentation%20Pic.jpg"
+        alt="Silvia Ciacchi durante una presentazione accademica"
+        class="activity-photo"
+      >
+
+    </div>
+
+    <div class="featured-work">
+
+      <div class="featured-content">
+
+        <img
+          src="images/BHR%20WG%20Workshop%20Visual2.png"
+          alt="Workshop del Business and Human Rights Working Group"
+          class="workshop-photo"
+        >
+
+        <div>
+          <h3>HRDD Beyond Compliance</h3>
+
+          <p>
+            Un workshop interattivo basato sull'analisi
+            di casi pratici, dedicato a esplorare come
+            la due diligence in materia di diritti umani
+            possa andare oltre la mera conformità normativa,
+            promuovendo un approccio sostanziale ai rischi
+            per i diritti umani e alla responsabilità
+            delle imprese.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+
+    <p>
+      Per collaborazioni di ricerca, progetti di consulenza
+      o opportunità di formazione, non esitare a contattarmi.
+    </p>
+
+    <div class="contact-buttons">
+
+      <a class="button"
+         href="mailto:s.ciacchi@outlook.com">
+        Email
+      </a>
+
+      <a class="button button-outline"
+         href="https://www.linkedin.com/in/silvia-ciacchi/"
+         target="_blank"
+         rel="noopener noreferrer">
+        LinkedIn
+      </a>
+
+    </div>
+
+    <div class="academic-links">
+
+      <a href="https://scholar.google.com/citations?user=fUkSAy0AAAAJ&amp;hl=en"
+         target="_blank"
+         rel="noopener noreferrer">
+        Google Scholar
+      </a>
+
+      <a href="https://orcid.org/0009-0004-3388-6976"
+         target="_blank"
+         rel="noopener noreferrer">
+        ORCID
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Silvia Ciacchi
+</footer>
+
+</body>
+</html>
