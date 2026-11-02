@@ -271,12 +271,12 @@ section p {
 .activity-overview img.activity-photo,
 .featured-content img.workshop-photo {
   display: block;
-  width: 48%;
-  max-width: 48%;
+  width: 58%;
+  max-width: 58%;
   height: auto;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  flex: 0 0 34%;
+  flex: 0 0 58%;
 }
 
 .featured-work {
