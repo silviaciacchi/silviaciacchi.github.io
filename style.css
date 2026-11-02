@@ -272,7 +272,7 @@ section p {
 .featured-content img.workshop-photo {
   display: block;
   width: 34%;
-  max-width: 34%;
+  max-width: 48%;
   height: auto;
   aspect-ratio: 4 / 3;
   object-fit: cover;
@@ -565,22 +565,5 @@ footer {
 }
 
 
-/* WORKSHOP IMAGE */
 
-.featured-content img.workshop-photo {
-  width: 48%;
-  max-width: 48%;
-  height: auto;
-  aspect-ratio: auto;
-  object-fit: contain;
-  flex: 0 0 48%;
-}
-
-@media (max-width: 700px) {
-  .featured-content img.workshop-photo {
-    width: 100%;
-    max-width: 100%;
-    flex: 0 0 auto;
-  }
-}
 
