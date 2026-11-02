@@ -1,1 +1,265 @@
 
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Esperienze professionali e formazione accademica di Silvia Ciacchi.">
+
+  <title>Curriculum Vitae | Silvia Ciacchi</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header>
+    <nav>
+      <a class="name" href="index-ITA.html">Silvia Ciacchi</a>
+
+      <div class="nav-links">
+        <a href="index-ITA.html">Home</a>
+        <a href="cv-ITA.html" aria-current="page">CV</a>
+        <a href="index-ITA.html#contact">Contatti</a>
+
+        <span class="language-switch">
+          <a href="cv.html">EN</a> /
+          <strong>IT</strong>
+        </span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="cv-page">
+
+      <h1>Curriculum Vitae</h1>
+
+      <!-- PROFESSIONAL EXPERIENCE -->
+      <div class="cv-section">
+
+        <h2>Esperienze professionali</h2>
+
+        <div class="cv-entry">
+          <div class="cv-date">Ott 2026 – Presente</div>
+
+          <div>
+            <h3>Consulente indipendente</h3>
+
+            <p class="cv-organisation">
+              Imprese e Diritti Umani e Sustainability Due Diligence
+            </p>
+
+            <p>
+              Sviluppo di quadri di conformità normativa che
+              integrano la sostenibilità aziendale e la due
+              diligence in materia di diritti umani nelle
+              pratiche aziendali.
+            </p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Set 2025 – Presente</div>
+
+          <div>
+            <h3>
+              Coordinatrice, Business and Human Rights Working Group
+            </h3>
+
+            <p class="cv-organisation">
+              Netherlands Network for Human Rights Research
+            </p>
+
+            <p>
+              Coordinamento della collaborazione e dello scambio
+              di conoscenze tra mondo accademico e professionale.
+              Sviluppo di un formato formativo interattivo,
+              basato su casi pratici, dedicato alle sfide
+              applicative della due diligence in materia
+              di diritti umani.
+            </p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Gen 2025 – Presente</div>
+
+          <div>
+            <h3>Supervisora esterna di tesi</h3>
+
+            <p class="cv-organisation">
+              University of Amsterdam · Master Law &amp; Finance
+            </p>
+
+            <p>
+              Supervisione di tesi interdisciplinari sulla
+              Corporate Sustainability Due Diligence Directive
+              (CSDDD), sulla Corporate Sustainability Reporting
+              Directive (CSRD) e sull'Omnibus I.
+            </p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Set 2022 – Ago 2026</div>
+
+          <div>
+            <h3>Ricercatrice di dottorato</h3>
+
+            <p class="cv-organisation">
+              Erasmus University Rotterdam
+            </p>
+
+            <p>
+              Ricerca interdisciplinare che combina prospettive
+              giuridiche ed economiche sui fondamenti, sui
+              principi di funzionamento e sulla progettazione
+              dei quadri normativi di due diligence
+              obbligatoria in materia di sostenibilità.
+            </p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Gen 2025 – Mar 2026</div>
+
+          <div>
+            <h3>
+              Docente · Diritto dell'UE, Imprese e Diritti Umani
+              e regolamentazione della sostenibilità
+            </h3>
+
+            <p class="cv-organisation">
+              Diverse istituzioni accademiche
+            </p>
+
+            <p>
+              Lezioni e seminari rivolti a un pubblico
+              internazionale e interdisciplinare, con
+              particolare attenzione al collegamento tra
+              teoria giuridica, sviluppi normativi
+              contemporanei e sfide per le imprese.
+            </p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Gen – Ago 2022</div>
+
+          <div>
+            <h3>
+              Tirocinante in Corporate Governance
+            </h3>
+
+            <p class="cv-organisation">
+              Reward Value
+            </p>
+
+            <p>
+              Ricerca sulla governance societaria orientata
+              agli stakeholder, sugli indicatori ESG e
+              sull'integrazione dei fattori di sostenibilità
+              nella remunerazione dei dirigenti.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="cv-section">
+
+        <h2>Formazione</h2>
+
+        <div class="cv-entry">
+          <div class="cv-date">2022 – 2026</div>
+
+          <div>
+            <h3>
+              Dottorato di ricerca in Analisi Economica del Diritto
+            </h3>
+
+            <p class="cv-organisation">
+              Erasmus University Rotterdam
+            </p>
+
+            <p>
+              European Doctorate in Law and Economics (EDLE).
+            </p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">2020 – 2021</div>
+
+          <div>
+            <h3>
+              Master of Laws (LL.M.) in Globalisation and Law
+            </h3>
+
+            <p class="cv-organisation">
+              Maastricht University
+            </p>
+
+            <p>
+              Cum laude.
+            </p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">2017 – 2020</div>
+
+          <div>
+            <h3>
+              Laurea in Studi Giuridici Comparati, Europei
+              e Internazionali (CEILS)
+            </h3>
+
+            <p class="cv-organisation">
+              Università di Trento
+            </p>
+
+            <p>
+              Cum laude.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- LINKS -->
+      <div class="cv-links">
+
+        <a href="https://scholar.google.com/citations?user=fUkSAy0AAAAJ&amp;hl=en"
+           target="_blank"
+           rel="noopener noreferrer">
+          Pubblicazioni su Google Scholar →
+        </a>
+
+        <a href="https://www.linkedin.com/in/silvia-ciacchi/"
+           target="_blank"
+           rel="noopener noreferrer">
+          Profilo LinkedIn →
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Silvia Ciacchi
+  </footer>
+
+</body>
+</html>
+
