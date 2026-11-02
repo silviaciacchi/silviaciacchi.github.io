@@ -444,3 +444,96 @@ footer {
     height: 140px;
   }
 }
+
+
+/* CURRICULUM VITAE */
+
+.cv-page {
+  padding: 55px 65px;
+}
+
+.cv-page h1 {
+  font-size: 46px;
+  margin: 0 0 35px;
+}
+
+.cv-section {
+  margin-top: 36px;
+  padding-top: 25px;
+  border-top: 1px solid var(--line);
+}
+
+.cv-section h2 {
+  font-size: 29px;
+  margin: 0 0 25px;
+}
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: 165px minmax(0, 1fr);
+  gap: 25px;
+  margin-bottom: 27px;
+}
+
+.cv-date {
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 4px;
+}
+
+.cv-entry h3 {
+  font-size: 21px;
+  line-height: 1.35;
+  margin: 0 0 3px;
+}
+
+.cv-organisation {
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.cv-entry p:not(.cv-organisation) {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.cv-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  border-top: 1px solid var(--line);
+  padding-top: 25px;
+  margin-top: 30px;
+}
+
+.cv-links a {
+  color: var(--blue);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cv-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .cv-page {
+    padding: 32px 25px;
+  }
+
+  .cv-page h1 {
+    font-size: 36px;
+  }
+
+  .cv-entry {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+}
+
