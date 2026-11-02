@@ -694,3 +694,36 @@ footer {
 }
 
 
+/* PHOTO SIZE FIX */
+
+.hero .portrait-photo {
+  width: 180px;
+  height: 230px;
+  max-width: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.activity-overview .activity-photo,
+.featured-content .workshop-photo {
+  width: 34%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+  .hero .portrait-photo {
+    width: 95px;
+    height: 125px;
+  }
+
+  .activity-overview .activity-photo,
+  .featured-content .workshop-photo {
+    width: 100%;
+  }
+}
+
+
