@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional experience and education of Silvia Ciacchi.">
+  <title>CV | Silvia Ciacchi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="name" href="index.html">Silvia Ciacchi</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="cv.html" aria-current="page">CV</a>
+        <a href="index.html#contact">Contact</a>
+        <span class="language-switch">EN / IT</span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cv-page">
+      <h1>Curriculum Vitae</h1>
+
+      <div class="cv-section">
+        <h2>Professional Experience</h2>
+
+        <div class="cv-entry">
+          <div class="cv-date">Oct 2026 – Present</div>
+          <div>
+            <h3>Independent Consultant</h3>
+            <p class="cv-organisation">Business & Human Rights and Sustainability Due Diligence</p>
+            <p>Developing compliance frameworks integrating corporate sustainability and human rights due diligence in business practice.</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Sep 2025 – Present</div>
+          <div>
+            <h3>Coordinator, Business and Human Rights Working Group</h3>
+            <p class="cv-organisation">Netherlands Network for Human Rights Research</p>
+            <p>Coordinating academic–practitioner collaboration and knowledge exchange. Developed an interactive, case-based training format addressing practical human rights due diligence challenges.</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Jan 2025 – Present</div>
+          <div>
+            <h3>External Thesis Supervisor</h3>
+            <p class="cv-organisation">University of Amsterdam · Master Law & Finance</p>
+            <p>Supervising interdisciplinary dissertations on the CSDDD, CSRD and Omnibus I.</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Sep 2022 – Aug 2026</div>
+          <div>
+            <h3>Doctoral Researcher</h3>
+            <p class="cv-organisation">Erasmus University Rotterdam</p>
+            <p>Interdisciplinary research combining legal and economic perspectives on the foundations, operating principles and design of mandatory sustainability due diligence frameworks.</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Jan 2025 – Mar 2026</div>
+          <div>
+            <h3>Lecturer · EU Law, Business & Human Rights and Sustainability Regulation</h3>
+            <p class="cv-organisation">Multiple Academic Institutions</p>
+            <p>Lectures and seminars for international and interdisciplinary audiences, connecting legal theory with contemporary regulatory and business challenges.</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Jan – Aug 2022</div>
+          <div>
+            <h3>Corporate Governance Intern</h3>
+            <p class="cv-organisation">Reward Value</p>
+            <p>Research on stakeholder-oriented corporate governance, ESG metrics and sustainability factors in executive remuneration.</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Apr 2021 – Mar 2022</div>
+          <div>
+            <h3>Research Assistant</h3>
+            <p class="cv-organisation">University of Trento · JRC-commissioned study</p>
+            <p>Research support for a study on the transposition of EU Directive 2019/633, commissioned by the European Commission's Joint Research Centre.</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Mar 2019 – Jun 2020</div>
+          <div>
+            <h3>Student Research Assistant</h3>
+            <p class="cv-organisation">University of Trento · FRICoRE Project</p>
+            <p>Case-law research and analysis for the project's database.</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">Aug 2018</div>
+          <div>
+            <h3>Research Intern</h3>
+            <p class="cv-organisation">University of Sussex · SOGICA Project</p>
+            <p>Case-law database research and updates.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-section">
+        <h2>Education</h2>
+
+        <div class="cv-entry">
+          <div class="cv-date">2022 – 2026</div>
+          <div>
+            <h3>PhD in Law and Economics</h3>
+            <p class="cv-organisation">Erasmus University Rotterdam</p>
+            <p>European Doctorate in Law and Economics (EDLE).</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">2020 – 2021</div>
+          <div>
+            <h3>LL.M. in Globalisation and Law</h3>
+            <p class="cv-organisation">Maastricht University</p>
+            <p>Cum laude.</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">2017 – 2020</div>
+          <div>
+            <h3>LL.B. in Comparative, European and International Legal Studies</h3>
+            <p class="cv-organisation">University of Trento</p>
+            <p>Cum laude.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-section">
+        <h2>Additional Training</h2>
+
+        <div class="cv-entry">
+          <div class="cv-date">2024</div>
+          <div>
+            <h3>Business and Human Rights Summer School</h3>
+            <p class="cv-organisation">Scuola Superiore Sant'Anna</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">2024</div>
+          <div>
+            <h3>Perspectives on Governance and Sustainable Development</h3>
+            <p class="cv-organisation">Copenhagen Business School · PhD Course</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <div class="cv-date">2022 – 2023</div>
+          <div>
+            <h3>European Doctorate in Law and Economics · Mobility</h3>
+            <p class="cv-organisation">University of Bologna and University of Hamburg</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-links">
+        <a href="https://scholar.google.com/citations?user=fUkSAy0AAAAJ&amp;hl=en"
+           target="_blank" rel="noopener noreferrer">
+          Publications on Google Scholar →
+        </a>
+        <a href="https://www.linkedin.com/in/silvia-ciacchi/"
+           target="_blank" rel="noopener noreferrer">
+          LinkedIn profile →
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Silvia Ciacchi</footer>
+</body>
+</html>
