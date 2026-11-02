@@ -563,3 +563,24 @@ footer {
     flex: 0 0 110px;
   }
 }
+
+
+/* WORKSHOP IMAGE */
+
+.featured-content img.workshop-photo {
+  width: 48%;
+  max-width: 48%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  flex: 0 0 48%;
+}
+
+@media (max-width: 700px) {
+  .featured-content img.workshop-photo {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 auto;
+  }
+}
+
