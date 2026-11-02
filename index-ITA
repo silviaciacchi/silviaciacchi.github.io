@@ -1,0 +1,23 @@
+
+
+
+
+<!-- NAVIGATION -->
+<header>
+  <nav>
+    <a class="name" href="index-it.html">Silvia Ciacchi</a>
+
+    <div class="nav-links">
+      <a href="index-it.html">Home</a>
+      <a href="cv-it.html">CV</a>
+      <a href="#contact">Contatti</a>
+
+      <span class="language-switch">
+        <a href="index.html">EN</a> /
+        <strong>IT</strong>
+      </span>
+    </div>
+  </nav>
+</header>
+
+<main id="home">
