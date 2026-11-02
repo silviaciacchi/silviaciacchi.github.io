@@ -686,4 +686,58 @@ footer {
 }
 
 
+/* REAL PHOTOGRAPHS — SIZE CONTROL */
+
+.hero img.portrait-photo {
+  display: block;
+  width: 180px;
+  min-width: 180px;
+  max-width: 180px;
+  height: 230px;
+  object-fit: cover;
+  object-position: center;
+  flex: 0 0 180px;
+}
+
+.activity-overview img.activity-photo,
+.featured-content img.workshop-photo {
+  display: block;
+  width: 34%;
+  max-width: 34%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  flex: 0 0 34%;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .hero img.portrait-photo {
+    width: 95px;
+    min-width: 95px;
+    max-width: 95px;
+    height: 125px;
+    flex: 0 0 95px;
+  }
+
+  .activity-overview img.activity-photo,
+  .featured-content img.workshop-photo {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero img.portrait-photo {
+    width: 110px;
+    min-width: 110px;
+    max-width: 110px;
+    height: 140px;
+    flex: 0 0 110px;
+  }
+}
+
+
 
