@@ -285,10 +285,11 @@ section p {
   width: 34%;
   max-width: 34%;
   height: auto;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  aspect-ratio: auto;
+  object-fit: contain;
   flex: 0 0 34%;
 }
+
 
 
 /* PUBLICATIONS */
