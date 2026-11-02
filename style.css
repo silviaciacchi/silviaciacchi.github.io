@@ -281,13 +281,14 @@ section p {
 /* WORKSHOP IMAGE */
 
 .featured-content img.workshop-photo {
-  display: block;
   width: 58%;
   max-width: 58%;
   height: auto;
   aspect-ratio: auto;
   object-fit: contain;
+  object-position: center;
   flex: 0 0 58%;
+  overflow: visible;
 }
 
 
