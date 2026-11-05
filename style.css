@@ -608,16 +608,25 @@ footer {
 }
 
 /* Contact form */
-.contact-section {
-  margin-top: 36px;
-  max-width: 460px;
+
+.contact-panel {
+  max-width: 420px;
+  margin-top: 20px;
+  padding: 22px;
+  border: 1px solid #d8e1e8;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.contact-panel[hidden] {
+  display: none;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-top: 16px;
+  margin: 0;
 }
 
 .contact-form input,
@@ -626,20 +635,14 @@ footer {
   box-sizing: border-box;
   padding: 11px 13px;
   border: 1px solid #ccd5dd;
-  border-radius: 6px;
+  border-radius: 4px;
   font: inherit;
-  background: transparent;
-  color: inherit;
+  color: #203B50;
+  background: #ffffff;
 }
 
 .contact-form textarea {
   resize: vertical;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  outline: 2px solid #2878B8;
-  outline-offset: 1px;
 }
 
 .contact-form button {
@@ -649,4 +652,16 @@ footer {
 
 .contact-form .honeypot {
   display: none;
+}
+
+.contact-buttons button.button {
+  font: inherit;
+  cursor: pointer;
+}
+
+.linkedin-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
