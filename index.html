@@ -14,6 +14,26 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+<script>
+  const contactToggle = document.getElementById("contact-toggle");
+  const contactPanel = document.getElementById("contact-panel");
+
+  contactToggle.addEventListener("click", function () {
+    const isOpening = contactPanel.hidden;
+
+    contactPanel.hidden = !isOpening;
+
+    contactToggle.setAttribute(
+      "aria-expanded",
+      String(isOpening)
+    );
+
+    contactToggle.textContent = isOpening
+      ? "Close contact form"
+      : "Contact me";
+  });
+</script>
+  
 <body>
 
 
