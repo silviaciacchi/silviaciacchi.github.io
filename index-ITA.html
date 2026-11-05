@@ -14,25 +14,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<script>
-  const contactToggle = document.getElementById("contact-toggle");
-  const contactPanel = document.getElementById("contact-panel");
-
-  contactToggle.addEventListener("click", function () {
-    const isOpening = contactPanel.hidden;
-
-    contactPanel.hidden = !isOpening;
-
-    contactToggle.setAttribute(
-      "aria-expanded",
-      String(isOpening)
-    );
-
-    contactToggle.textContent = isOpening
-      ? "Close contact form"
-      : "Contact me";
-  });
-</script>
   
 <body>
 
@@ -231,18 +212,61 @@
 
   </section>
 
-  <!-- CONTACT -->
+ 
+<!-- CONTACT -->
 <section id="contact" class="contact">
 
-  <div class="contact-buttons">
+  <div class="contact-area">
 
-    <button type="button"
-            class="button"
-            id="contact-toggle"
-            aria-expanded="false"
-            aria-controls="contact-panel">
-      Contact me
-    </button>
+    <details class="contact-details">
+
+      <summary class="button contact-trigger">
+        Contattami
+      </summary>
+
+      <div class="contact-panel">
+
+        <form action="https://formspree.io/f/YOUR_FORM_ID"
+              method="POST"
+              class="contact-form">
+
+          <input type="text"
+                 name="name"
+                 placeholder="Nome"
+                 aria-label="Nome"
+                 autocomplete="name"
+                 required>
+
+          <input type="email"
+                 name="email"
+                 placeholder="Indirizzo email"
+                 aria-label="Indirizzo email"
+                 autocomplete="email"
+                 required>
+
+          <textarea name="message"
+                    placeholder="Il tuo messaggio"
+                    aria-label="Il tuo messaggio"
+                    rows="4"
+                    required></textarea>
+
+          <!-- Protezione antispam -->
+          <input type="text"
+                 name="_gotcha"
+                 class="honeypot"
+                 tabindex="-1"
+                 autocomplete="off"
+                 aria-hidden="true">
+
+          <button type="submit" class="button">
+            Invia messaggio
+          </button>
+
+        </form>
+
+      </div>
+
+    </details>
 
     <a class="button linkedin-button"
        href="https://www.linkedin.com/in/silvia-ciacchi/"
@@ -250,7 +274,8 @@
        rel="noopener noreferrer">
 
       <svg xmlns="http://www.w3.org/2000/svg"
-           width="16" height="16"
+           width="16"
+           height="16"
            viewBox="0 0 24 24"
            fill="currentColor"
            aria-hidden="true">
@@ -262,49 +287,7 @@
 
   </div>
 
-  <!-- Collapsible contact form -->
-  <div id="contact-panel" class="contact-panel" hidden>
-
-    <form action="https://formspree.io/f/YOUR_FORM_ID"
-          method="POST"
-          class="contact-form">
-
-      <input type="text"
-             name="name"
-             placeholder="Your name"
-             aria-label="Your name"
-             autocomplete="name"
-             required>
-
-      <input type="email"
-             name="email"
-             placeholder="Your email"
-             aria-label="Your email"
-             autocomplete="email"
-             required>
-
-      <textarea name="message"
-                placeholder="Your message"
-                aria-label="Your message"
-                rows="4"
-                required></textarea>
-
-      <input type="text"
-             name="_gotcha"
-             class="honeypot"
-             tabindex="-1"
-             autocomplete="off"
-             aria-hidden="true">
-
-      <button type="submit" class="button">
-        Send message
-      </button>
-
-    </form>
-
-  </div>
-
-  <!-- Academic profiles -->
+  <!-- Profili accademici -->
   <div class="academic-links">
 
     <a href="https://scholar.google.com/citations?user=fUkSAy0AAAAJ&amp;hl=en"
