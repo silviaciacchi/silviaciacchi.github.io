@@ -585,131 +585,41 @@ footer {
   flex-shrink: 0;
 }
 
+/* Contact me / LinkedIn buttons */
 
-/* Contact buttons */
-.contact-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 12px;
-}
-
-.linkedin-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-
-.linkedin-button svg {
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
-}
-
-/* Contact form */
-
-.contact-panel {
-  max-width: 420px;
-  margin-top: 20px;
-  padding: 22px;
-  border: 1px solid #d8e1e8;
-  background: #ffffff;
-  box-sizing: border-box;
-}
-
-.contact-panel[hidden] {
-  display: none;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin: 0;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 11px 13px;
-  border: 1px solid #ccd5dd;
-  border-radius: 4px;
-  font: inherit;
-  color: #203B50;
-  background: #ffffff;
-}
-
-.contact-form textarea {
-  resize: vertical;
-}
-
-.contact-form button {
-  align-self: flex-start;
-  cursor: pointer;
-}
-
-.contact-form .honeypot {
-  display: none;
-}
-
-.contact-buttons button.button {
-  font: inherit;
-  cursor: pointer;
-}
-
-.linkedin-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-
-/* Contact buttons: consistent appearance */
-
-.contact-buttons {
-  display: flex;
-  align-items: stretch;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.contact-buttons .button {
+.contact-area .contact-trigger,
+.contact-area > .linkedin-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
 
-  min-width: 140px;
-  min-height: 50px;
-  box-sizing: border-box;
+  width: 150px;
+  height: 46px;
+  min-width: 150px;
 
-  padding: 12px 20px;
+  padding: 0 16px;
   margin: 0;
 
-  border: 0;
+  box-sizing: border-box;
+  border: 1px solid var(--navy);
   border-radius: 0;
 
-  background-color: #203B50;
+  background-color: var(--navy);
   color: #ffffff;
 
-  font-family: inherit;
+  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1;
   text-decoration: none;
-
   cursor: pointer;
-  appearance: none;
 }
 
-.contact-buttons .button svg {
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
+.contact-area .contact-trigger:hover,
+.contact-area > .linkedin-button:hover {
+  background-color: var(--blue);
+  border-color: var(--blue);
+  color: #ffffff;
 }
 
-.contact-buttons .button:hover {
-  background-color: #30516A;
-}
