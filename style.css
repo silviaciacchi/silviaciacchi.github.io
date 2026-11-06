@@ -573,17 +573,57 @@ footer {
 }
 
 
-/* ORCID ICON */
-.orcid-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  text-decoration: none;
+
+/* ACADEMIC PROFILE BUTTONS */
+
+.academic-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
 }
 
-.orcid-link img {
+.academic-links .academic-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  width: 150px;
+  height: 46px;
+  box-sizing: border-box;
+
+  padding: 0 12px;
+  border: 1px solid var(--navy);
+  border-radius: 0;
+
+  background-color: transparent;
+  color: var(--navy);
+
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.academic-links .academic-button:hover {
+  background-color: var(--navy);
+  color: #ffffff;
+}
+
+/* ORCID ICON */
+
+.academic-links .orcid-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
   flex-shrink: 0;
 }
+
 
 /* Contact area layout */
 
