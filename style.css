@@ -140,7 +140,7 @@ nav {
   padding-top: 18px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /* PORTRAIT PHOTOGRAPH */
@@ -183,7 +183,7 @@ section p {
   display: inline-block;
   margin-top: 10px;
   color: var(--blue);
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 600;
   text-decoration: none;
 }
@@ -235,13 +235,13 @@ section p {
 .card p {
   margin: 0 0 20px;
   color: var(--muted);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.75;
 }
 
 .card a {
   margin-top: auto;
-  font-size: 14px;
+  font-size: 15px;
   text-decoration: none;
 }
 
@@ -306,7 +306,7 @@ section p {
 .publication-placeholder {
   margin-bottom: 14px;
   color: var(--muted);
-  font-size: 15px;
+  font-size: 17px;
   font-style: italic;
 }
 
