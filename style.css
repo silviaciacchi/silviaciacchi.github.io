@@ -148,7 +148,7 @@ nav {
   min-width: 240px;
   max-width: 240px;
   height: 310px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   flex: 0 0 240px;
   image-rendering: auto;
@@ -271,12 +271,12 @@ section p {
 
 .activity-overview img.activity-photo {
   display: block;
-  width: 50%;
-  max-width: 50%;
+  width: 38%;
+  max-width: 38%;
   height: auto;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
-  flex: 0 0 50%;
+  object-fit: contain;
+  flex: 0 0 38%;
 }
 
 /* WORKSHOP IMAGE */
