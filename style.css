@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600&display=swap');
 
 /* COLOURS AND GENERAL SETTINGS */
 
@@ -26,7 +26,7 @@ body {
   padding: 0 20px;
   background: var(--background);
   color: var(--text);
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 16px;
   line-height: 1.75;
 }
@@ -39,8 +39,8 @@ h1,
 h2,
 h3 {
   color: var(--navy);
-  font-family: 'DM Serif Display', serif;
-  font-weight: 400;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 500;
 }
 
 /* GENERAL PAGE CONTAINERS */
@@ -75,7 +75,7 @@ nav {
 
 .name {
   color: var(--navy);
-  font-family: 'DM Serif Display', serif;
+  font-family: 'IBM Plex Serif', serif;
   font-size: 24px;
   text-decoration: none;
 }
@@ -620,7 +620,7 @@ footer {
   background-color: var(--navy);
   color: #ffffff;
 
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -686,7 +686,7 @@ footer {
   background: white;
   color: var(--text);
 
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 14px;
   line-height: 1.5;
 }
