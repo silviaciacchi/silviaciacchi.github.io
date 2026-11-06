@@ -4,8 +4,8 @@
 /* COLOURS AND GENERAL SETTINGS */
 
 :root {
-  --navy: #203B50;
-  --blue: #55758a;
+  --navy: #194B76;
+  --blue: #4D88B5;
   --background: #eef2f5;
   --white: #ffffff;
   --text: #293c48;
@@ -145,12 +145,12 @@ nav {
 .hero img.portrait-photo {
   display: block;
   width: 240px;
-  min-width: 180px;
-  max-width: 180px;
+  min-width: 240px;
+  max-width: 240px;
   height: 310px;
   object-fit: cover;
   object-position: center;
-  flex: 0 0 180px;
+  flex: 0 0 240px;
   image-rendering: auto;
 }
 
@@ -271,12 +271,12 @@ section p {
 
 .activity-overview img.activity-photo {
   display: block;
-  width: 45%;
-  max-width: 45%;
+  width: 50%;
+  max-width: 50%;
   height: auto;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  flex: 0 0 45%;
+  flex: 0 0 50%;
 }
 
 /* WORKSHOP IMAGE */
