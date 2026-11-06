@@ -635,3 +635,88 @@ footer {
   color: #ffffff;
 }
 
+/* CONTACT FORM */
+
+.contact-details {
+  position: relative;
+}
+
+.contact-trigger {
+  list-style: none;
+}
+
+.contact-trigger::-webkit-details-marker {
+  display: none;
+}
+
+.contact-panel {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 0;
+  z-index: 10;
+
+  width: 380px;
+  max-width: calc(100vw - 48px);
+  padding: 20px;
+
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 24px rgba(23, 46, 64, 0.12);
+}
+
+/* Form layout */
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+/* Input fields */
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 11px 12px;
+
+  border: 1px solid var(--line);
+  border-radius: 0;
+
+  background: white;
+  color: var(--text);
+
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Message occupies the full second row */
+
+.contact-form textarea {
+  grid-column: 1 / -1;
+  min-height: 110px;
+  resize: vertical;
+}
+
+/* Send button */
+
+.contact-form button {
+  grid-column: 1 / -1;
+  justify-self: start;
+  cursor: pointer;
+}
+
+/* Hide spam protection field */
+
+.contact-form .honeypot {
+  display: none;
+}
+
+/* Small screens */
+
+@media (max-width: 420px) {
+  .contact-panel {
+    width: calc(100vw - 48px);
+  }
+}
