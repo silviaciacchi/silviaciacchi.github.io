@@ -60,6 +60,9 @@ section {
 
 header {
   padding: 20px 40px;
+    position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 nav,
