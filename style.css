@@ -764,10 +764,16 @@ footer {
   }
 }
 
-/* UNIFIED PROFILE SECTION */
+/* UNIFIED PROFILE BOX */
 
 .profile {
+  border: 1px solid var(--line);
   padding: 60px;
+}
+
+.profile .hero {
+  border: none;
+  padding: 0;
 }
 
 .profile .biography {
