@@ -585,6 +585,18 @@ footer {
   flex-shrink: 0;
 }
 
+/* Contact area layout */
+
+.contact-area {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+}
+
 /* Contact me / LinkedIn buttons */
 
 .contact-area .contact-trigger,
