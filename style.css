@@ -110,7 +110,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-  padding: 65px;
+  padding: 0px;
 }
 
 .hero-content {
@@ -759,4 +759,15 @@ footer {
   .contact-panel {
     width: calc(100vw - 48px);
   }
+}
+
+/* UNIFIED PROFILE SECTION */
+
+.profile {
+  padding: 60px;
+}
+
+.profile .biography {
+  margin-top: 35px;
+  padding: 0;
 }
